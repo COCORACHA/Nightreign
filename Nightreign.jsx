@@ -14,17 +14,17 @@ const WEAPON_LIST = [
 
 // 預設的 10 種 Debuff
 const DEBUFF_LIST = [
-  "不能升至满级(最终等级<15级)",
-  "5级前只能单独作战",
-  "第一晚必须打一个红boss",
+  "不能升至滿級 (最終等級 < 15 級)",
+  "5 級前只能單獨作戰",
+  "第一晚必須打一個紅 Boss",
   "禁止鎖定敵人",
   "禁止升級武器",
-  "禁止使用戰灰/技能",
+  "禁止使用戰灰 / 技能",
   "血瓶不能全收集",
-  "不能用金色传说武器",
-  "不能使用当局夜王弱属性的武器",
-  "每人最多带4把武器",
-  "第一晚阵亡队友不能拉人",
+  "不能用金色傳說武器",
+  "不能使用當局夜王弱屬性的武器",
+  "每人最多帶 4 把武器",
+  "第一晚陣亡隊友不能拉人",
   "禁消耗品、道具"
 ];
 
@@ -48,16 +48,16 @@ const CHARACTER_LIST = [
 // 您可以在這裡將網址換成真實的圖片連結 (例如 imgur, discord 圖片連結等)
 // 目前使用自動生成的文字圖片作為示範
 const CHARACTER_IMAGES = {
-  "追蹤者": "https://media.discordapp.net/attachments/1386171818389536800/1453602673893838878/thumbnail-WYLDER-V2.webp?ex=694e0c7c&is=694cbafc&hm=297ea61d7fffc60c25dcac1c6a9e5f9b4ebc9e6db2d29feba549a1652fbc1ec6&=&format=webp",
-  "女爵": "https://media.discordapp.net/attachments/1386171818389536800/1453602676284850277/thumbnail-DUCHESS-V2.webp?ex=694e0c7c&is=694cbafc&hm=6e6abdf11777adeed0e1e83c1f76bf43ba3ab652bbcc1bd27c28c3e0e62c4ffb&=&format=webp",
-  "鐵之眼": "https://media.discordapp.net/attachments/1386171818389536800/1453602674636357723/ironeye-thumbnail-V2.webp?ex=694e0c7c&is=694cbafc&hm=a7c68ca206b86a9e07d73ae39811a3707c0fa14d4e782761bad2c63042c635dc&=&format=webp",
-  "無賴": "https://media.discordapp.net/attachments/1386171818389536800/1453602675248726189/raider-thumbnail-V2.webp?ex=694e0c7c&is=694cbafc&hm=3a81335163e3e0ca401d2643659fe8148f906f902eca3c312d6fc80d10b534c1&=&format=webp",
-  "復仇者": "https://media.discordapp.net/attachments/1386171818389536800/1453602675965825116/revenant-thumbnail-V2.webp?ex=694e0c7c&is=694cbafc&hm=69db619b20c3c6de30887ccc07a9e5d12bf1303a78bf42f7003f3536469295d2&=&format=webp",
-  "隱士": "https://media.discordapp.net/attachments/1386171818389536800/1453602672375763108/thumbnail-RECLUSE-v2.webp?ex=694e0c7b&is=694cbafb&hm=fc581ce805be36af0c2a2a271e57df1658c6a83849cafec959d21c3240308398&=&format=webp",
-  "守護者": "https://media.discordapp.net/attachments/1386171818389536800/1453602673176743976/thumbnail-GUARDIAN_-V2.webp?ex=694e0c7b&is=694cbafb&hm=4f018892e5dc4a9e1aa7bbb7a9c0da4f739d401cba7fa5f7919fc7fac372e853&=&format=webp",
-  "執行者": "https://media.discordapp.net/attachments/1386171818389536800/1453602675664097444/executor-thumbnail-V2.webp?ex=694e0c7c&is=694cbafc&hm=dffa08c74148f0d9cd090d35f5b30309bd76064be6194adbbaab9e7f9c4a0d46&=&format=webp",
-  "送葬者": "https://media.discordapp.net/attachments/1386171818389536800/1453602671201222696/Undertaker-thumbnail-3.webp?ex=694e0c7b&is=694cbafb&hm=efae8984772086cb991462f6f7fab7c792ae06fbf3a1344b63dce1b95a4f8b7a&=&format=webp",
-  "學者": "https://media.discordapp.net/attachments/1386171818389536800/1453602670417023149/Scholar-thumbnail-3.webp?ex=694e0c7b&is=694cbafb&hm=bfa365ca7f5c9ae351f1b7dccc75daf2fbf3171abb94859054346f9431841eef&=&format=webp"
+  "追蹤者": "https://p325k7wa.twic.pics/high/elden-ring/elden-ring-nightreign/04-character-gallery/01-thumbnail/V2/thumbnail-WYLDER-V2.png?twic=v1/resize=-x370/step=10/quality=80",
+  "女爵": "https://p325k7wa.twic.pics/high/elden-ring/elden-ring-nightreign/04-character-gallery/01-thumbnail/V2/thumbnail-DUCHESS-V2.png?twic=v1/resize=-x370/step=10/quality=80",
+  "鐵之眼": "https://p325k7wa.twic.pics/high/elden-ring/elden-ring-nightreign/04-character-gallery/01-thumbnail/V2/ironeye-thumbnail-V2.png?twic=v1/resize=-x370/step=10/quality=80",
+  "無賴": "https://p325k7wa.twic.pics/high/elden-ring/elden-ring-nightreign/04-character-gallery/01-thumbnail/V2/raider-thumbnail-V2.png?twic=v1/resize=-x370/step=10/quality=80",
+  "復仇者": "https://p325k7wa.twic.pics/high/elden-ring/elden-ring-nightreign/04-character-gallery/01-thumbnail/V2/revenant-thumbnail-V2.png?twic=v1/resize=-x370/step=10/quality=80",
+  "隱士": "https://p325k7wa.twic.pics/high/elden-ring/elden-ring-nightreign/04-character-gallery/01-thumbnail/V2/thumbnail-RECLUSE-v2.png?twic=v1/resize=-x370/step=10/quality=80",
+  "守護者": "https://p325k7wa.twic.pics/high/elden-ring/elden-ring-nightreign/04-character-gallery/01-thumbnail/V2/thumbnail-GUARDIAN%20-V2.png?twic=v1/resize=-x370/step=10/quality=80",
+  "執行者": "https://p325k7wa.twic.pics/high/elden-ring/elden-ring-nightreign/04-character-gallery/01-thumbnail/V2/executor-thumbnail-V2.png?twic=v1/resize=-x370/step=10/quality=80",
+  "送葬者": "https://p325k7wa.twic.pics/high/elden-ring/elden-ring-nightreign/04-character-gallery/01-thumbnail/Undertaker-thumbnail-3.png?twic=v1/resize=-x370/step=10/quality=80",
+  "學者": "https://p325k7wa.twic.pics/high/elden-ring/elden-ring-nightreign/04-character-gallery/01-thumbnail/V2/Scholar-thumbnail-3.png?twic=v1/resize=-x370/step=10/quality=80"
 };
 
 // --- 輔助函式 ---
